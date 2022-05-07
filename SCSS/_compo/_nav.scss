@@ -1,0 +1,30 @@
+nav{
+    min-height: 50px;
+    background-color:wheat;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 1px 1px 5px black;
+    position: sticky;
+    top: 0;
+    ul{
+        li{
+            display: inline-block;
+            padding: 10px 10px;
+            a{
+                text-decoration: none;
+                background-color: grey;
+                padding: 5px 20px;
+                color: wheat;
+                border-radius: 5px;
+                box-shadow: 2px 2px 2px black;
+            }
+            a:hover{
+                color: white;
+                box-shadow: 4px 4px 4px black;
+
+            }
+        }
+    }
+}
