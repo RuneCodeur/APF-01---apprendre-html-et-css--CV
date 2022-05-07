@@ -1,0 +1,22 @@
+
+.progress-bar{
+    margin-bottom: 15px;
+    width: 90%;
+    height: 15px;
+    background-color: rgb(235, 235, 235);
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px black;
+    border: 1px white solid;
+    div{
+        height: 15px;
+        border-radius: 10px;
+        background-color: rgb(255, 206, 116);
+    }
+}
+
+.title{
+    padding: 5px;
+    box-shadow: 1px 1px 5px black;
+    margin: 20px 10px 10px 10px;
+    font-size: 15px;
+}

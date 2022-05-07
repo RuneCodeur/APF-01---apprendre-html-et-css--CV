@@ -1,0 +1,16 @@
+footer{
+    background-color: grey;
+    text-align: center;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    box-shadow: 1px 1px 5px black;
+
+    p{
+     letter-spacing: 3px;
+     text-transform: uppercase;
+     text-shadow: 2px 2px 5px black;
+    }
+}

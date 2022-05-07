@@ -1,0 +1,25 @@
+.flex-container-portfolio{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    .item-site{
+        min-width: 200px;
+        max-width: 250px;
+        flex-basis: 45%;
+        padding: 5px;
+        text-align: justify;
+        img{
+            width: 100%;
+            box-shadow:  1px 1px 5px black;
+            transition-duration: 0.2s;
+        }
+        img:hover{
+            filter: grayscale(100%);
+            box-shadow:  1px 1px 10px black;
+        }
+        p{
+            width: 100%;
+        }
+    }
+}
